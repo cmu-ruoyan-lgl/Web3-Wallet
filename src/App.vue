@@ -16,7 +16,7 @@
   const Wallet_title = ref('Wallet');
   
   // 实例化Web3
-  var web3 = new Web3(Web3.givenProvider || "ws://localhost:8545")
+  var web3 = new Web3(Web3.givenProvider || "wss://sepolia.infura.io/ws/v3/d82e57138b8f43d791ff7be7137bd914")
   console.log(web3);
 </script>
 
