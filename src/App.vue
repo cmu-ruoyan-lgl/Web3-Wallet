@@ -14,6 +14,7 @@
   import { ref } from 'vue';
   import Web3 from 'web3';
   const Wallet_title = ref('Wallet');
+  
   // 实例化Web3
   var web3 = new Web3(Web3.givenProvider || "ws://localhost:8545")
   console.log(web3);
